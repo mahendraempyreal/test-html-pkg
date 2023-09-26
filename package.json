@@ -1,6 +1,6 @@
 {
   "name": "test-html-pkg",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "lib/index.js",
   "module": "lib/index.js",
@@ -23,9 +23,11 @@
   },
   "homepage": "https://github.com/mahendraempyreal/test-html-pkg#readme",
   "peerDependencies": {
-    "prop-types": "^15.6.0",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0"
+    "@headlessui/react": "^1.7.15",
+    "@heroicons/react": "^2.0.18",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "dependencies": {
     "@babel/cli": "^7.23.0",
@@ -35,7 +37,8 @@
     "@babel/preset-stage-0": "^7.8.3",
     "babel-loader": "^9.1.3",
     "babel-preset-react": "^6.24.1",
-    "react": "^16.0.0",
+    "core-js": "^3.32.2",
+    "react": "^18.2.0",
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4"
   }
