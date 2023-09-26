@@ -1,6 +1,6 @@
 {
   "name": "test-html-pkg",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,10 +9,10 @@
     "publish:npm": "rm -rf dist && mkdir dist &&  babel src/components -d dist --copy-files"
   },
   "private": false,
-  "babel": {  
-    "presets": [  
-      "@babel/preset-react"   
-    ] 
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ]
   },
   "repository": {
     "type": "git",
